@@ -400,11 +400,15 @@ img {
   cursor: pointer;
   transition: opacity 0.1s;
   display: block;
+  transition-property: box-shadow, transform;
+  transition-duration: 350ms;
+  transition-timing-function: ease; 
 
 }
 .JavaScript:hover{
   box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.15);
   opacity: 0.8;
+  transform: translateY(-8px);
 }
 .JavaScript:active{
   background-color: white;
@@ -424,10 +428,14 @@ img {
   padding-bottom: 10px;
   border-radius: 0.5rem;
   cursor: pointer;
+  transition-property: box-shadow, transform;
+  transition-duration: 350ms;
+  transition-timing-function: ease; 
 }
 .Wordpress:hover {
   box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.15);
   opacity: 0.8;
+  transform: translateY(-8px);
 }
 .Wordpress:active {
   background-color: white;
@@ -448,11 +456,14 @@ img {
   border-radius: 0.5rem;
   cursor: pointer;
   justify-items: center;
-  
+  transition-property: box-shadow, transform;
+  transition-duration: 350ms;
+  transition-timing-function: ease; 
 }
 .Bootstrap:hover {
   box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.15);
   opacity: 0.8;
+  transform: translateY(-8px);
 }
 .Bootstrap:active {
   background-color: white;
